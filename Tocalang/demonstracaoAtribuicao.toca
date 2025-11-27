@@ -1,0 +1,32 @@
+DECLARACOES
+    % Declaração dos tipos
+    idade : INTEIRO
+    altura : REAL
+    temCarteira : BOOLEANO
+    temIngresso : BOOLEANO
+
+ALGORITMO
+INICIO
+    % Atribuição de valores
+    ATRIBUIR 21 A idade
+    ATRIBUIR 1.75 A altura
+    ATRIBUIR VERDADEIRO A temCarteira
+    ATRIBUIR VERDADEIRO A temIngresso
+
+    % Uso de Texto para dar contexto na impressão
+    IMPRIMIR '--- DADOS DO USUARIO ---'
+    
+    IMPRIMIR 'Idade (Tipo Inteiro):'
+    IMPRIMIR idade
+    
+    IMPRIMIR 'Altura (Tipo Real):'
+    IMPRIMIR altura
+    
+    IMPRIMIR 'Possui habilitacao? (Tipo Booleano):'
+    IMPRIMIR temCarteira
+
+    
+    SE idade >= 18 E temIngresso = VERDADEIRO ENTAO
+        IMPRIMIR 'Pode Entrar'
+    FIM
+FIM

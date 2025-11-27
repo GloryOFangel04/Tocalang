@@ -1,0 +1,54 @@
+DECLARACOES
+    % Novas variáveis de texto
+    nome_usuario : TEXTO
+    mensagem_final : TEXTO
+    
+    % Variáveis de controle
+    opcao : INTEIRO
+    i : INTEIRO
+
+ALGORITMO
+INICIO
+    IMPRIMIR '--- BEM VINDO A TOCALANG ---'
+    IMPRIMIR 'Digite seu nome, viajante:'
+    
+    % Teste de leitura de TEXTO
+    LER nome_usuario
+    
+    IMPRIMIR 'Ola '
+    IMPRIMIR nome_usuario
+    
+    IMPRIMIR 'Escolha uma porta para abrir:'
+    IMPRIMIR '1 - Contar Coelhos (Teste PARA)'
+    IMPRIMIR '2 - Conselho do Gato (Teste ESCOLHA)'
+    IMPRIMIR '3 - Sair'
+    
+    LER opcao
+    
+    % Teste do ESCOLHA (Switch Case)
+    ESCOLHA opcao
+        CASO 1:
+            IMPRIMIR 'Voce escolheu contar coelhos caindo na toca...'
+            
+            % Teste do PARA (For Loop)
+            PARA i DE 1 ATE 5 FACA
+                IMPRIMIR i
+            FIM
+            
+            IMPRIMIR 'Fim da contagem!'
+            
+        CASO 2:
+            IMPRIMIR 'O Gato ri e diz:'
+            IMPRIMIR 'Para quem nao sabe para onde vai, qualquer caminho serve.'
+            
+        CASO 3:
+            IMPRIMIR 'Saindo da Toca...'
+            
+        PADRAO:
+            IMPRIMIR 'Opcao Invalida! A Rainha de Copas nao gostou disso.'
+    FIM
+
+    % Teste de atribuição de texto
+    ATRIBUIR 'Fim do Programa.' A mensagem_final
+    IMPRIMIR mensagem_final
+FIM

@@ -1,0 +1,10 @@
+DECLARACOES
+    contador : INTEIRO
+ALGORITMO
+INICIO
+    ATRIBUIR 0 A contador
+    ENQUANTO contador < 3
+        IMPRIMIR contador
+        ATRIBUIR contador + 1 A contador
+    FIM
+FIM

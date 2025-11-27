@@ -1,0 +1,11 @@
+DECLARACOES
+    n1 : REAL
+    media : REAL
+ALGORITMO
+INICIO
+    ATRIBUIR 8.0 A n1
+    ATRIBUIR n1 / 2 A media
+    SE media >= 7.0 ENTAO
+        IMPRIMIR 'Passou'
+    FIM
+FIM

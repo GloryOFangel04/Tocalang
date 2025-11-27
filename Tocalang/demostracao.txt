@@ -1,0 +1,12 @@
+DECLARACOES
+% Definicao de variaveis
+contador: INTEIRO
+salario: REAL
+aprovado: BOOLEANO
+
+ALGORITMO
+INICIO
+    ATRIBUIR 10 A contador
+    ATRIBUIR VERDADEIRO A aprovado
+    IMPRIMIR contador
+FIM

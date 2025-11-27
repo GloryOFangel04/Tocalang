@@ -1,0 +1,9 @@
+DECLARACOES
+    ativo : BOOLEANO
+ALGORITMO
+INICIO
+    ATRIBUIR VERDADEIRO A ativo
+    SE ativo ENTAO
+        IMPRIMIR 'Sistema Ativo'
+    FIM
+FIM

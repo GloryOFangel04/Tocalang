@@ -1,0 +1,6 @@
+DECLARACOES
+    resultado : INTEIRO
+ALGORITMO
+INICIO
+    ATRIBUIR 10 + 5 * 2 A resultado
+FIM

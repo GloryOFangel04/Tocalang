@@ -1,0 +1,17 @@
+DECLARACOES
+    numero : INTEIRO
+
+ALGORITMO
+INICIO
+    IMPRIMIR 'Iniciando teste de seguranca...'
+
+    % Tentativa valida
+    ATRIBUIR 10 A numero
+    IMPRIMIR numero
+
+    % ERRO SEMANTICO: Tentar usar uma variavel que nao existe
+    % O compilador deve bloquear isso.
+    ATRIBUIR 50 A variavel_fantasma
+    
+    IMPRIMIR 'Se voce ver isso, o tratamento de erro falhou.'
+FIM

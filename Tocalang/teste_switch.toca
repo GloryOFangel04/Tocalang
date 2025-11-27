@@ -1,0 +1,14 @@
+DECLARACOES
+    opcao : INTEIRO
+
+ALGORITMO
+INICIO
+    ATRIBUIR 1 A opcao
+
+    ESCOLHA opcao
+        CASO 1:
+            IMPRIMIR 'Primeira'
+        PADRAO:
+            IMPRIMIR 'Outra'
+    FIM
+FIM
